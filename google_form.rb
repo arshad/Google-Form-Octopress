@@ -24,7 +24,7 @@ module Jekyll
         @message = $2
         
         #url of the Google Form
-        @url = "https://docs.google.com/spreadsheet/embeddedform?formkey=#{@formkey}"
+        @url = "https://docs.google.com/spreadsheet/embeddedform?key=#{@formkey}"
         
         #parse the HTML and get the form markup only
         doc = Nokogiri::HTML(open(@url))
