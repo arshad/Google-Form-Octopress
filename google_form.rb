@@ -19,17 +19,17 @@ module Jekyll
     @formhtml = ''
 
     def initialize(tag_name, markup, tokens)
-      if markup =~ /([a-zA-Z0-9_]*)?\s(.+)/
+      if markup =~ /([a-zA-Z0-9_\-]*)?\s(.+)/
         @formkey = $1
         @message = $2
-        
+
         #url of the Google Form
         @url = "https://docs.google.com/forms/d/#{@formkey}/viewform?embedded=true"
 
         #parse the HTML and get the form markup only
         doc = Nokogiri::HTML(open(@url))
         form = doc.xpath("//form").first.unlink
-        
+
         @formhtml = form.to_html
       end
       super
