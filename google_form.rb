@@ -1,5 +1,5 @@
 # Title: Google Form
-# Authors: Arshad http://donothackcore.com
+# Authors: Arshad Chummun
 # Description: A filter to embed Google Forms in Octopress
 #
 # Syntax {% google_form formkey [message] %}
