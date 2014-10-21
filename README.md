@@ -1,4 +1,4 @@
-Contact form using Google form for Octopress
+Contact form for Octopress
 =====================
 
 A Liquid tag to embed Google Forms in Octopress.
