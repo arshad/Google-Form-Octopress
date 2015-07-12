@@ -7,7 +7,7 @@ A Liquid tag to embed Google Forms in Octopress.
 
 The plugin requires the Nokigiri gem, so let's install that first.
 
-* Edit your Gemfile and add **gem 'nokogiri'** to it
+* Edit your Gemfile and add **gem 'nokogiri'** to it and run: `bundle install`.
 
 Octopress does not have a plugin manager yet, so we'll have to do this manually.
 Download the files in the repo, and place them as follows:
