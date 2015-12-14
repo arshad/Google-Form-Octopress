@@ -1,7 +1,7 @@
-Contact form for Octopress
+Contact form for Octopress 2.0
 =====================
 
-A Liquid tag to embed Google Forms in Octopress.
+A Liquid tag to embed Google Forms in Octopress 2.0.
 
 ## Installation
 
